@@ -1,1 +1,32 @@
-{"version":"1.4.04","description":"A WebSocket Server for node.js, 90-100% spec compatible.","repository":{"type":"git","url":"http://github.com/miksago/node-websocket-server.git"},"directories":{"doc":"./doc","lib":"./lib/ws"},"main":"./lib/ws/server","bugs":{"web":"http://github.com/miksago/node-websocket-server/issues"},"author":"Micheil Smith <micheil@brandedcode.com>","licenses":[{"type":"MIT","url":"./LICENSE.md"}],"name":"websocket-server","engines":{"node":">=0.2.0-0"}}
+{
+  "version": "1.4.4",
+  "description": "A WebSocket Server for node.js, 90-100% spec compatible.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThisIsMissEm/node-websocket-server.git"
+  },
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "main": "./lib/ws/server",
+  "author": "Emelia Smith <micheil@brandedcode.com>",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "./LICENSE.md"
+    }
+  ],
+  "name": "@gitterhq/websocket-server",
+  "engines": {
+    "node": ">=0.2.0-0"
+  },
+  "bugs": {
+    "url": "https://github.com/ThisIsMissEm/node-websocket-server/issues"
+  },
+  "homepage": "https://github.com/ThisIsMissEm/node-websocket-server#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT"
+}

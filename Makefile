@@ -1,7 +1,4 @@
-release:
-	node tools/release.js
-
-publish: release
+publish:
 	npm publish .
 
 test:
@@ -12,7 +9,7 @@ test-all: test
 	@echo "Running All Tests"
 	@find -f test/pummel/test-*.js | xargs -n 1 -t node
 
-benchmark: 
+benchmark:
 	@echo "Running Benchmarks"
 	@find -f benchmark/simple/*.js | xargs -n 1 -t node
 
